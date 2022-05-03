@@ -8,6 +8,10 @@ input[type=number] select {
     border-radius: 4px;
     box-sizing: border-box;
   }
+
+  body{
+    background-color:#ccc;
+  }
   
   
   
