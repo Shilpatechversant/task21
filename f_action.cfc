@@ -18,6 +18,6 @@
     <cfmail to="#Arguments.baby_mail#" from="shilpasullas@gmail.com" subject="Happy Birthday">
         <cfmailparam file="#fileLoc#" disposition="inline" contentID="image1">
             <img src="cid:image1"> Happy Birthday #Arguments.baby_name# !
-        </cfmail>   
+    </cfmail>   
     <cflocation  url="index.cfm?success=1">
 </cffunction>
